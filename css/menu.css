@@ -1,0 +1,38 @@
+body{
+	margin:0;
+	padding:0;
+	display:block;
+	text-align:center;
+}
+
+.inicio{
+	font-family:Arial, serif;
+	font-weight:bold;
+	font-size:14px;
+	text-decoration:none;
+	color:#FFFF;
+}
+
+.acerca{
+	font-family:Arial, serif;
+	font-weight:bold;
+	font-size:14px;
+	text-decoration:none;
+	color:#FFFF;
+}
+
+.videos{
+	font-family:Arial, serif;
+	font-weight:bold;
+	font-size:14px;
+	text-decoration:none;
+	color:#FFFF;
+}
+
+.contacto{
+	font-family:Arial, serif;
+	font-weight:bold;
+	font-size:14px;
+	text-decoration:none;
+	color:#FFFF;
+}

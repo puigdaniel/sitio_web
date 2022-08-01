@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta content="IE=7,8,edge"/>
+        <title>
+            Pagina sobre cajas misteriosas - Contacto
+        </title>
+        
+        <style>
+        	form{
+        		margin:0;
+        		padding:0;
+        	}
+        	
+        	input{
+        		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+				font-size:18px;
+				display:block;
+        	}
+        	
+        	textarea{
+        		display:block;
+        		width:900px;
+        		min-height:1000px;
+        		line-height:30px;
+        		margin:5px;
+        		padding:5px;
+        		float:left;
+        	}
+        </style>
+        
+    </head>
+    <body>
+        <form name="formulario" id="formulario" method="post" action="">
+        	
+        	<label for="nombre">Nombre</label>
+        	<input name="nombre" id="nombre" type="text">
+        	<label for="apellido">Apellido</label>
+        	<input name="apellido" id="apellido" type="text">
+        	<label for="mail">E-mail</label>
+        	<input name="mail" id="mail" type="mail">
+        	<label for="password">Password</label>
+        	<input name="password" id="password" type="pass">
+        	<textarea name="mensaje" id="mensaje" rows="50" cols="50">	
+        	</textarea>
+        	<input name="enviar" id="enviar" type="submit"><br>
+        </form>
+        <div id="error"></div>
+        <script src="menu_desplegable_responsive/javascript/script.js"></script>
+        
+    </body>
+</html>
